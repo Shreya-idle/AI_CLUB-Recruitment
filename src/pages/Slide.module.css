@@ -1,0 +1,12 @@
+
+.slide {
+    @apply transition-transform ease-in-out duration-500 transform scale-90 flex justify-center items-center h-48 bg-gray-300 mx-2 rounded-lg;
+}
+
+.active {
+    @apply transform scale-110 bg-white border-t-2 border-l-2 border-r-2 border-b-4 border-b-zinc-400;
+}
+
+.slickCenter .slide {
+    @apply transform scale-110;
+}
